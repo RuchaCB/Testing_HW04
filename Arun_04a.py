@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 def getInfo(UID):
     request_URL = requests.get(f'https://api.github.com/users/{UID}/repos')
     reply = request_URL.json()
