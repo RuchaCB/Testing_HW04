@@ -6,7 +6,7 @@ class TestGit(unittest.TestCase):
     """Class is used to test getInfo"""
 
     def test_getInfo(self):
-        self.assertEqual([repo for repo in getInfo("NAruneshwar")], ([('810Assignment', 2), ('Testing', 12), ('Testing_HW04', 8), ('Triangle', 9)]))
+        self.assertEqual([repo for repo in getInfo("richkempinski")], ([('hellogitworld', 30), ('helloworld', 6), ('Mocks', 10), ('Project1', 2), ('threads-of-life', 1)]))
 
 
 if __name__ == '__main__':
