@@ -13,7 +13,7 @@ def getInfo(UID):
         num = 0
         for each in commits:
             num+=1
-        yield(repos,num)
+        yield repos, num
        
 
 def main():
